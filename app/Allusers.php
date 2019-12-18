@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Allusers extends Model
 {
+    // get all users in this model
     protected $table ='allusers';
     protected $primaryKey = 'user_id';
 
